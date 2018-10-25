@@ -12,10 +12,11 @@
 - [ ] End user documentation
 
 # Technologies to be used
-Name | Details
--- | --
-Languages | C/C++, Python
-Tools | Sublime Text, Linux
+| Name   |      Details      |
+|----------|:-------------:|
+| Languages |  C, C++, Python, Markdown |
+| Tools |    Sublime Text, Git   |
+
 
 # Online resources
 [Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
