@@ -1,5 +1,5 @@
 # Project Title : Binomial Heap
-
+https://www.geeksforgeeks.org/binomial-heap-2/
 ## Contents
 
 - [x] <a href="#project-title-binomial-heap">Title of project</a>
@@ -34,7 +34,7 @@ The project delivers the following functionalities as an api to the user :
 
 # Project delivery plan
 
-We aim to deliver the project as a menu driven program to the user.
+We aim to deliver the project as a menu driven program which allows user to build a binary heap with all the standard heap functions and a merge function which works in O(log n) time.
 
 # End User Documentation
 
@@ -55,9 +55,11 @@ We aim to deliver the project as a menu driven program to the user.
 [Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
 <br>
 [Binomial Heaps [Wiki]](https://en.wikipedia.org/wiki/Binomial_heap)
+[cs.toronto.edu](http://www.cs.toronto.edu/~anikolov/CSC265F18/binomial-heaps.pdf)
+[Geeksforgeeks](https://www.geeksforgeeks.org/binomial-heap-2/)
 
 # Plan for testing
-An input file of a specified format can be supplied as an input to the program
+An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
 
 # Team members
 - Shashi Jangra
