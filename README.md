@@ -12,16 +12,11 @@
 - [ ] End user documentation
 
 # Technologies to be used
-| Name   |      Details      |
-|----------|:-------------:|
-| Languages |  C, C++, Python, Markdown |
-| Tools |    Sublime Text, Git   |
 
-
-| First Header  | Second Header |
+| Title  | Details |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Languages  | C, C++, Python, Markdown  |
+| Tools  | Sublime Text, Git  |
 
 
 # Online resources
