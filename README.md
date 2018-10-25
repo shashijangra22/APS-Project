@@ -37,8 +37,6 @@ The project delivers the following functionalities as an api to the user :
 We aim to deliver the project as a menu driven program to the user.
 
 # End User Documentation
-
-  ### Compiling the code
   - go to root directory of project and simply run `make` command through terminal.
   - execute the `main` file via terminal command.
   - Operations supported are as follows : 
