@@ -1,5 +1,4 @@
 # Project Title : Binomial Heap
-https://www.geeksforgeeks.org/binomial-heap-2/
 ## Contents
 
 - [x] <a href="#project-title-binomial-heap">Title of project</a>
@@ -55,7 +54,9 @@ We aim to deliver the project as a menu driven program which allows user to buil
 [Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
 <br>
 [Binomial Heaps [Wiki]](https://en.wikipedia.org/wiki/Binomial_heap)
+<br>
 [cs.toronto.edu](http://www.cs.toronto.edu/~anikolov/CSC265F18/binomial-heaps.pdf)
+<br>
 [Geeksforgeeks](https://www.geeksforgeeks.org/binomial-heap-2/)
 
 # Plan for testing
