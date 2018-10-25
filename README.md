@@ -7,9 +7,9 @@
 - [x] <a href="#deliverables">Deliverables</a>
 - [x] <a href="#project-delivery-plan">Project delivery plan</a>
 - [x] <a href="#end-user-documentation">End User Documentation</a>
-- [x] <a href="#team-members">Team members</a>
-- [x] <a href="#plan-for-testing">Plan for testing</a>
 - [x] <a href="#online-resources">Online resources</a>
+- [x] <a href="#plan-for-testing">Plan for testing</a>
+- [x] <a href="#team-members">Team members</a>
 
 # Technologies to be used
 
@@ -37,6 +37,7 @@ The project delivers the following functionalities as an api to the user :
 We aim to deliver the project as a menu driven program to the user.
 
 # End User Documentation
+
   - go to root directory of project and simply run `make` command through terminal.
   - execute the `main` file via terminal command.
   - Operations supported are as follows : 
