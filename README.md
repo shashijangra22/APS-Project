@@ -2,11 +2,11 @@
 
 ## Contents
 
-- [x] Title of project
-- [x] Technologies to be used
-- [x] Online resources
-- [x] Plan for testing
-- [x] Team members
+- [x] <a href="#project-title-binomial-heap">Title of project</a>
+- [x] <a href="#technologies-to-be-used">Technologies to be used</a>
+- [x] <a href="#online-resources">Online resources</a>
+- [x] <a href="#plan-for-testing">Plan for testing</a>
+- [x] <a href="#team-members">Team members</a>
 - [ ] Deliverables  
 - [ ] Project delivery plan
 - [ ] End user documentation
