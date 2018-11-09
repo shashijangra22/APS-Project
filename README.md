@@ -94,6 +94,10 @@ Along with that  compare its performance with AVL and
 <br>
 ![Deletion Comparison on Sorted data](/images/Delete_sorted.png)
 <br>
+![Search Comparison on Random data](/images/Search_random.png)
+<br>
+![Search Comparison on Sorted data](/images/Search_sorted.png)
+<br>
   
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
