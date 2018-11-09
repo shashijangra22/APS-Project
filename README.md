@@ -88,7 +88,7 @@ Along with that  compare its performance with AVL and
 #### Graph demonstarting the performance analysis for insert, search and delete operations between Binomial Heap and AVL tree:-
 ![Insert Comparison on Random data](/images/Insert_random.png)
 <br>
-![Insert Comparison on Sorted data](/images/Insert_Sorted.png)
+![Insert Comparison on Sorted data](/images/Insert_sorted.png)
 <br>
 ![Deletion Comparison on Random data](/images/Delete_random.png)
 <br>
