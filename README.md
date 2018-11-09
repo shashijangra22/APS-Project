@@ -85,6 +85,21 @@ Along with that  compare its performance with AVL and
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a AVL tree which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the AVL tree.
   
+## Implementation of Prim's Algorithm using Binomial heap :-
+
+ - go to directory of project and simply run g++ -o prim prims.cpp command through terminal.
+ - The corresponding .out will be generated. Execute this file using the command ./prim.out <filename> .
+   There are two input files:-
+      - prim1.txt - contains a graph information that has 20 vertices and 159 edges.
+      - prim2.txt - contains a graph information that has 5 vertices and 8 edges.
+   Input File format:- 
+      - First line contains number of vertices followed by number of edges(n).
+      - There are following n lines that conatins information about edges. Source, destination and weight of the edges.
+ - Output:- 
+      - The edges that will be present in the Minimum Spanning tree(Format:- Source Destination )
+      - Weight of the minimum spanning tree
+  
+  
 # Plan for testing
 An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
 
