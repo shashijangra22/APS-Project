@@ -59,9 +59,9 @@ Along with that  compare its performance with AVL and
       - Press 5 to quit from the menu driven program.
       - Press 6 to print the binomial heap.
       
- ## Performance Comparison with AVL tree :-
- 
-  ### Time analysis for insertion and deletion in Binomial heap:- 
+## Performance Comparison with AVL tree :-
+  
+### Time analysis for insertion and deletion in Binomial heap:- 
   - go to directory of project and simply run g++ -o comparebinomial comp_analysis.cpp command through terminal.
   - The corresponding .out will be generated. Execute this file using the command ./comparebinomial.out .
   - The terminal will prompt for filename:-
