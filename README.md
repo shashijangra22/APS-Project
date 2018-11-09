@@ -85,6 +85,9 @@ Along with that  compare its performance with AVL and
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a AVL tree which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the AVL tree.
   
+#### Graph demonstarting the performance analysis for insert, search and delete operations between Binomial Heap and AVL tree:-
+![Insertion of Random data](/images/Insert_random.png)
+  
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
  - go to directory of project and simply run g++ -o prim prims.cpp command through terminal.
@@ -98,10 +101,7 @@ Along with that  compare its performance with AVL and
  - Output:- 
       - The edges that will be present in the Minimum Spanning tree(Format:- Source Destination )
       - Weight of the minimum spanning tree
-  
-  
-# Plan for testing
-An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
+    
 
 # Online resources
 
