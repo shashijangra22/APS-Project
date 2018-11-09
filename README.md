@@ -31,9 +31,19 @@ The project delivers the following functionalities as an api to the user :
 | Decrease Key  | H.decreaseKey(x,y) | key to be modified, new value to update | decreases the key x by value y | O(log(n)) |
 | Merge  | H.merge(X) | heap root pointer to merge with | merges the 2 heaps H and X | O(log(n)) |
 
+Along with above mentioned functionalities,this projects aims to provide comparative analysis on below major operations with that of AVL tree:-
+  - Insertion
+  - Deletion
+  - Search
+
+Also, we have implemented Prim's Algorithm using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greed approach. From a particular vertex ,the next vertex is so chosen so that it can be connected to the current tree
+using the edge of the lowest weight. Repeating this process until all the nodes are included yields the Minimum Spanning Tree. The Prim’s Algorithm is based on the above approach. It uses a Heap for finding the next vertex with the minimum edge weight which can be included in the Minimum spanning tree.
+
+
 # Project delivery plan
 
 We aim to deliver the project as a menu driven program which allows user to build a binary heap with all the standard heap functions and a merge function which works in O(log n) time.
+Along with that  compare its performance with AVL and 
 
 # End User Documentation
 
