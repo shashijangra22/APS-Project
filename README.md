@@ -52,9 +52,9 @@ Along with that  compare its performance with AVL and
   - go to directory of project and simply run g++ binomialheap.cpp command through terminal.
   - The corresponding .out will be generated. Execute this file using the command ./a.out .
   - A menu will be prompted requesting for the operation to be performed.
-      - Press 1 to insert and then provide the value to be inserted in the binomial heap.
-      - Press 2 to extract min:- returns the minimum value present in the the binomial heap. 
-      - Press 3 to decrease key:- Terminal will prompt for old key. Provide the old key following with the new key(It should be smaller than the old key).Old key will be replaced with the new key(smaller value). If the new value is greater than the old value, then the program will show the error message.
+      - Press 1 to insert. Then provide the value to be inserted in the binomial heap.
+      - Press 2 to extract min. Returns the minimum value present in the the binomial heap. 
+      - Press 3 to decrease key. Terminal will prompt for old key. Provide the old key following with the new key(It should be smaller than the old key).Old key will be replaced with the new key(smaller value). If the new value is greater than the old value, then the program will show the error message.
       - Press 4 to delete a value from the binomial heap and then provide the value to be deleted.
       - Press 5 to quit from the menu driven program.
       - Press 6 to print the binomial heap.
