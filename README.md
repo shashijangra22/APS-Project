@@ -86,7 +86,14 @@ Along with that  compare its performance with AVL and
   - The program will create a AVL tree which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the AVL tree.
   
 #### Graph demonstarting the performance analysis for insert, search and delete operations between Binomial Heap and AVL tree:-
-![Insertion of Random data](/images/Insert_random.png)
+![Insert Comparison on Random data](/images/Insert_random.png)
+<br>
+![Insert Comparison on Sorted data](/images/Insert_Sorted.png)
+<br>
+![Deletion Comparison on Random data](/images/Delete_random.png)
+<br>
+![Deletion Comparison on Sorted data](/images/Delete_sorted.png)
+<br>
   
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
