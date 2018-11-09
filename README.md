@@ -47,18 +47,30 @@ Along with that  compare its performance with AVL and
 
 # End User Documentation
 
-  - go to root directory of project and simply run `make` command through terminal.
-  - execute the `main` file via terminal command.
-  - Operations supported are as follows : 
+##Binomial heap functionalities:- 
 
-| Operation  | Input Format | Description |
-| ------------- | ------------- | ------------- |
-| Create Heap | 1\<space\>\<enter\> | Create a new heap. |
-| Insert | 2\<space\>\<key\>\<enter\> | Insert key to heap. |
-| Get Minimum | 3\<enter\> | returns the minimum key in heap. |
-| Delete | 4\<space\>\<key\>\<enter\> | deletes the key in the heap |
-| Extract Minimum  | 5\<enter\> | deletes minimum element in the heap |
-| Decrease Key | 6\<space\>\<key\>\<space\>\<new value\>\<enter\> | decreases the key by value |
+  - go to directory of project and simply run g++ binomialheap.cpp command through terminal.
+  - The corresponding .out will be generated. Execute this file using the command ./a.out .
+  - A menu will be prompted requesting for the operation to be performed.
+      - Press 1 to insert and then provide the value to be inserted in the binomial heap.
+      - Press 2 to extract min:- returns the minimum value present in the the binomial heap. 
+      - Press 3 to decrease key:- Terminal will prompt for old key. Provide the old key following with the new key(It should be smaller than the old key).Old key will be replaced with the new key(smaller value). If the new value is greater than the old value, then the program will show the error message.
+      - Press 4 to delete a value from the binomial heap and then provide the value to be deleted.
+      - Press 5 to quit from the menu driven program.
+      - Press 6 to print the binomial heap.
+  - The terminal will prompt for filename:-
+    There are three input files:-
+      - random.txt - contains around 20.000 random numbers.
+      - sorted.txt - contains numbers 1-20,00,000 in increasing order.
+      - reverse.txt - contains numbers 1-20,00,000 in descending order .
+    Provide the filename accordingly.
+  - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
+  - The program will create a binomial heap which contains the number of values that are selected in prior step and data will be from the file that was selected earlier.
+  
+
+
+# Plan for testing
+An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
 
 # Online resources
 [Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
@@ -68,9 +80,6 @@ Along with that  compare its performance with AVL and
 [cs.toronto.edu](http://www.cs.toronto.edu/~anikolov/CSC265F18/binomial-heaps.pdf)
 <br>
 [Geeksforgeeks](https://www.geeksforgeeks.org/binomial-heap-2/)
-
-# Plan for testing
-An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
 
 # Team members
 - Shashi Jangra
