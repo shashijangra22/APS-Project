@@ -47,7 +47,7 @@ Along with that  compare its performance with AVL and
 
 # End User Documentation
 
-## Binomial heap functionalities:- 
+## Binomial heap functionalities implementation:- 
 
   - go to directory of project and simply run g++ -o binomial binomialheap.cpp command through terminal.
   - The corresponding .out will be generated. Execute this file using the command ./binomial.out .
