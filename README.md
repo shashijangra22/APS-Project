@@ -104,8 +104,7 @@ Along with that  compare its performance with AVL and
 An input file of a specified format can be supplied as an input to the program which includes test cases that encounters the best, avg. and worst time complexity of Binomial heap functions.
 
 # Online resources
-[Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
-<br>
+
 [Binomial Heaps [Wiki]](https://en.wikipedia.org/wiki/Binomial_heap)
 <br>
 [Binomial Heaps Overview](https://www.growingwiththeweb.com/data-structures/binomial-heap/overview/)
@@ -113,6 +112,9 @@ An input file of a specified format can be supplied as an input to the program w
 [cs.toronto.edu](http://www.cs.toronto.edu/~anikolov/CSC265F18/binomial-heaps.pdf)
 <br>
 [Geeksforgeeks](https://www.geeksforgeeks.org/binomial-heap-2/)
+<br>
+[Fibonacci Heaps [cs.princeton.edu]](https://www.cs.princeton.edu/~wayne/teaching/fibonacci-heap.pdf)
+
 
 # Team members
 - Shashi Jangra
