@@ -88,13 +88,13 @@ Along with that  compare its performance with AVL and
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
  - go to directory of project and simply run g++ -o prim prims.cpp command through terminal.
- - The corresponding .out will be generated. Execute this file using the command ./prim.out <filename> .
+ - The corresponding .out will be generated. Execute this file using the command ./prim.out <filename> .<br>
    There are two input files:-
       - prim1.txt - contains a graph information that has 20 vertices and 159 edges.
-      - prim2.txt - contains a graph information that has 5 vertices and 8 edges.
+      - prim2.txt - contains a graph information that has 5 vertices and 8 edges.<br>
    Input File format:- 
       - First line contains number of vertices followed by number of edges(n).
-      - There are following n lines that conatins information about edges. Source, destination and weight of the edges.
+      - There are following n lines that conatins information about edges. Source, destination and weight of the edges.<br>
  - Output:- 
       - The edges that will be present in the Minimum Spanning tree(Format:- Source Destination )
       - Weight of the minimum spanning tree
