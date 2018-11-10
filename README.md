@@ -52,11 +52,6 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
 | Languages  | C, C++, Python, Markdown  |
 | Tools  | Sublime Text, Git  |
 
-# Project delivery plan
-
-We aim to deliver the project as a menu driven program which allows user to build a binary heap with all the standard heap functions and a merge function which works in O(log n) time.
-Along with that  compare its performance with AVL and 
-
 # End User Documentation
 
 ## Binomial heap functionalities implementation:- 
