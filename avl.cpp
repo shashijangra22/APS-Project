@@ -113,46 +113,6 @@ while (outFile >> x)
 cstart = clock()-cstart;
 time_taken = ((double)cstart)/CLOCKS_PER_SEC; 
 printf("My function took %f seconds to delete! \n", time_taken);
-
-
-
-
-
-    // while(n--)
-    // {
-    //     cin>>k;
-    //     root=Insert(root,k);
-    // }
-    
-    // while(m--)
-    // {
-    //     int q,a;
-    //     cin>>q>>a;
-        
-    //     switch(q)
-    //     {
-    //         case 1: 
-    //                 root=Insert(root,a);
-    //                 break;
-    //         case 2: 
-    //                 if(Search(root,a)==true)
-    //                     cout<<"1"<<endl;
-    //                 else
-    //                     cout<<"0"<<endl;
-    //                 break;
-    //         case 3: 
-    //                 l=inorder(root,1);
-    //                 cout<<l<<endl;
-    //                 root=Delete(root,l);
-    //                 break;
-                
-    //         default:
-    //                 break;
-    //     }        
-        
-    // }
-    // trav_inorder(root);
-    
     return 0;
 }
 
