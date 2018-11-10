@@ -143,5 +143,5 @@ The algorithm may informally be described as performing the following steps:
 
 
 # Team members
-- Shashi Jangra
-- Varun Gupta
+- Shashi Jangra (2018202001)
+- Varun Gupta (2018201003)
