@@ -37,11 +37,11 @@ The project delivers the following functionalities via binomial heap as an api t
 | Merge | union_of_heaps(H1,H2) | heap pointers to merge | merges the 2 heaps H1 and H2 and returns pointer to merged heap | O(log(n)) |
 
 Along with above mentioned functionalities, this projects aims to provide comparative analysis on below major operations with that of AVL tree:-
-  - Insertion
-  - Deletion
-  - Search
+  - **Insertion**
+  - **Deletion**
+  - **Search**
 
-Also, we have implemented Prim's Algorithm using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greedy approach. From a particular vertex ,the next vertex is so chosen so that it can be connected to the current tree
+Also, we have implemented **`Prim's Algorithm`** using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greedy approach. From a particular vertex ,the next vertex is so chosen so that it can be connected to the current tree
 using the edge of the lowest weight. Repeating this process until all the nodes are included yields the Minimum Spanning Tree. The Prim’s Algorithm is based on the above approach. It uses a Heap for finding the next vertex with the minimum edge weight which can be included in the Minimum spanning tree.
 
 # Technologies to be used
@@ -58,12 +58,12 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
   - go to directory of project and simply run `g++ -o binomial binomialheap.cpp` command through terminal.
   - The corresponding .out will be generated. Execute this file using the command `./binomial.out` .
   - A menu will be prompted requesting for the operation to be performed.
-      - Press 1 to insert. Then provide the value to be inserted in the binomial heap.
-      - Press 2 to extract min. Returns the minimum value present in the the binomial heap. 
-      - Press 3 to decrease key. Terminal will prompt for old key. Provide the old key following with the new key(It should be smaller than the old key).Old key will be replaced with the new key(smaller value). If the new value is greater than the old value, then the program will show the error message.
-      - Press 4 to delete a value from the binomial heap and then provide the value to be deleted.
-      - Press 5 to quit from the menu driven program.
-      - Press 6 to print the binomial heap.
+      - `Press 1 to insert`. Then provide the value to be inserted in the binomial heap.
+      - `Press 2 to extract min`. Returns the minimum value present in the the binomial heap. 
+      - `Press 3 to decrease key`. Terminal will prompt for old key. Provide the old key following with the new key(It should be smaller than the old key).Old key will be replaced with the new key(smaller value). If the new value is greater than the old value, then the program will show the error message.
+      - `Press 4 to delete` a value from the binomial heap and then provide the value to be deleted.
+      - `Press 5 to quit` from the menu driven program.
+      - `Press 6 to print` the binomial heap.
       
 ## Performance Comparison with AVL tree :-
   
@@ -72,21 +72,21 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
   - The corresponding .out will be generated. Execute this file using the `command ./comparebinomial.out` .
   - The terminal will prompt for filename:-
     There are three input files:-
-      - random.txt - contains around 20,000 random numbers.
-      - sorted.txt - contains numbers 1-20,00,000 in increasing order.
-      - reverse.txt - contains numbers 1-20,00,000 in descending order .
+      - `random.txt` - contains around 20,000 random numbers.
+      - `sorted.txt` - contains numbers 1-20,00,000 in increasing order.
+      - `reverse.txt` - contains numbers 1-20,00,000 in descending order .
     Provide the filename accordingly.
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a binomial heap which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the binomial heap.
   
 ### Time analysis for insertion and deletion in AVL tree:- 
-  - go to directory of project and simply run g++ -o compareavl avl.cpp command through terminal.
-  - The corresponding .out will be generated. Execute this file using the command ./compareavl.out .
+  - go to directory of project and simply run `g++ -o compareavl avl.cpp` command through terminal.
+  - The corresponding .out will be generated. Execute this file using the command `./compareavl.out` .
   - The terminal will prompt for filename:-
     There are three input files:-
-      - random.txt - contains around 20.000 random numbers.
-      - sorted.txt - contains numbers 1-20,00,000 in increasing order.
-      - reverse.txt - contains numbers 1-20,00,000 in descending order .
+      - `random.txt` - contains around 20.000 random numbers.
+      - `sorted.txt` - contains numbers 1-20,00,000 in increasing order.
+      - `reverse.txt` - contains numbers 1-20,00,000 in descending order .
     Provide the filename accordingly.
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a AVL tree which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the AVL tree.
