@@ -16,10 +16,10 @@
 A binomial heap is implemented as a set of binomial trees (compare with a binary heap, which has a shape of a single binary tree), which are defined recursively as follows:
 A Binomial Tree of order 0 has 1 node. A Binomial Tree of order k can be constructed by taking two binomial trees of order k-1 and making one as leftmost child or other.
 A Binomial Tree of order k has following properties.
-a) It has exactly 2k nodes.
-b) It has depth as k.
-c) There are exactly kCi nodes at depth i for i = 0, 1, . . . , k.
-d) The root has degree k and children of root are themselves Binomial Trees with order k-1, k-2,.. 0 from left to right.
+- It has exactly 2k nodes.
+- It has depth as k.
+- There are exactly kCi nodes at depth i for i = 0, 1, . . . , k.
+- The root has degree k and children of root are themselves Binomial Trees with order k-1, k-2,.. 0 from left to right.
 
 Because of its unique structure, a binomial tree of order k can be constructed from two trees of order k−1 trivially by attaching one of them as the leftmost child of the root of the other tree. This feature is central to the merge operation of a binomial heap, which is its major advantage over other conventional heaps.
 
