@@ -107,8 +107,17 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
   
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
+In computer science, Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.
+
+The algorithm may informally be described as performing the following steps:
+
+ - Initialize a tree with a single vertex, chosen arbitrarily from the graph.
+ - Grow the tree by one edge: of the edges that connect the tree to vertices not yet in the tree, find the minimum-weight edge, and transfer it to the tree.
+ - Repeat step 2 (until all vertices are in the tree)
+
+**To run the Prim's algorithm using Binomial Heap, follow the steps below**
  - go to directory of project and simply run `g++ -o prim prims.cpp` command through terminal.
- - The corresponding .out will be generated. Execute this file using the command `./prim.out <filename> .<br>`
+ - The corresponding .out will be generated. Execute this file using the command `./prim.out <filename> `.<br>
    There are two input files:-
       - prim1.txt - contains a graph information that has 20 vertices and 159 edges.
       - prim2.txt - contains a graph information that has 5 vertices and 8 edges.<br>
