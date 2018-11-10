@@ -56,7 +56,7 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
 ## Binomial heap functionalities implementation:- 
 
   - go to directory of project and simply run `g++ -o binomial binomialheap.cpp` command through terminal.
-  - The corresponding .out will be generated. Execute this file using the command `./binomial.out` .
+  - The corresponding .out will be generated. Execute this file using the command `./binomial` .
   - A menu will be prompted requesting for the operation to be performed.
       - `Press 1 to insert`. Then provide the value to be inserted in the binomial heap.
       - `Press 2 to extract min`. Returns the minimum value present in the the binomial heap. 
@@ -69,7 +69,7 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
   
 ### Time analysis for insertion and deletion in Binomial heap:- 
   - go to directory of project and simply run `g++ -o comparebinomial comp_analysis.cpp` command through terminal.
-  - The corresponding .out will be generated. Execute this file using the `command ./comparebinomial.out` .
+  - The corresponding .out will be generated. Execute this file using the `command ./comparebinomial` .
   - The terminal will prompt for filename:-
     There are three input files:-
       - `random.txt` - contains around 20,000 random numbers.
@@ -81,7 +81,7 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
   
 ### Time analysis for insertion and deletion in AVL tree:- 
   - go to directory of project and simply run `g++ -o compareavl avl.cpp` command through terminal.
-  - The corresponding .out will be generated. Execute this file using the command `./compareavl.out` .
+  - The corresponding .out will be generated. Execute this file using the command `./compareavl` .
   - The terminal will prompt for filename:-
     There are three input files:-
       - `random.txt` - contains around 20.000 random numbers.
@@ -117,7 +117,7 @@ The algorithm may informally be described as performing the following steps:
 
 **To run the Prim's algorithm using Binomial Heap, follow the steps below**
  - go to directory of project and simply run `g++ -o prim prims.cpp` command through terminal.
- - The corresponding .out will be generated. Execute this file using the command `./prim.out <filename> `.<br>
+ - The corresponding .out will be generated. Execute this file using the command `./prim <filename> `.<br>
    There are two input files:-
       - prim1.txt - contains a graph information that has 20 vertices and 159 edges.
       - prim2.txt - contains a graph information that has 5 vertices and 8 edges.<br>
