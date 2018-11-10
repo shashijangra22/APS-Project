@@ -255,7 +255,7 @@ node * extractMin(node * heap)
 			precedent = courant;
 			courant = frere;
 		}
-		//1ere itération
+		
 		else
 		{
 		precedent = courant;
@@ -368,21 +368,21 @@ int main(int argc, char * argv[])
 		fichier = fopen("graph_poids.txt", "r");
 
     static char ligne[50]; 
-	bool premiereLignefaite = false; //on traite la premiere ligne du fichier differemment
+	bool premiereLignefaite = false;
 	int nb_sommets;
 	int nb_aretes;
 
 	node * heap = NULL;
 
-    while (fgets(ligne, 50, fichier) != NULL) //retourne 0 quand on a end-of-file
+    while (fgets(ligne, 50, fichier) != NULL) 
     {
-        //La premiere ligne est différente
+        
         if (premiereLignefaite == false) {
 
-            //On va besoin d'avoir une matrice de N tas
+            
             sscanf(ligne, "%d %d", &nb_sommets, &nb_aretes );
 
-			vertices.resize(nb_sommets); //resize ou reserve?
+			vertices.resize(nb_sommets); 
 
 			for (int i = 0; i < nb_sommets; i++) {
 				node *tmp = new node;
@@ -390,7 +390,7 @@ int main(int argc, char * argv[])
 				tmp->key = INT_MAX;
 				tmp->i = i;
 
-				//Mettre le pointeur dans le tableau qui sauvegarde les pointeurs de sommets
+				
 				vertices[i].inHeap = tmp;
 				vertices[i].i = i;
 
@@ -403,7 +403,7 @@ int main(int argc, char * argv[])
             premiereLignefaite = true;
             continue;
         }
-        //On construit notre liste d'arêtes
+        
 		int sommet1, sommet2, poids;
 		sscanf(ligne, "%d %d %d", &sommet1, &sommet2, &poids);
 
@@ -417,7 +417,7 @@ int main(int argc, char * argv[])
 		vertices[sommet2].connexions.push_back(areteLue);
 
     }
-	//Boucle principale de l'algorithme de Prim
+	
 	vertice * min;
 	node * heap_min;
 	decreaseKey(vertices[0].inHeap, 0);
