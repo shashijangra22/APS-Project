@@ -3,8 +3,6 @@ clock_t cstart, cend;
 double cpu_time_used;
 using namespace std;
 
-
-//node structure
 struct node 
 {
     int n;
@@ -14,12 +12,10 @@ struct node
     struct node* sibling;
 }*H=NULL,*Hr=NULL;
 
-
-//node creation 
 struct node* create_node(int k) 
 {
     struct node* p;
-    //p = (struct node*) malloc(sizeof(struct node));
+    
     p=new node;
     p->n = k;
     return p;
@@ -44,23 +40,12 @@ void printTree(node *h)
         printTree(h->child); 
         h = h->sibling; 
     }
-  //  cout<<endl; 
+  
 } 
  
 //merging two heaps 
 struct node* simply_merging(struct node* H1, struct node* H2) 
 {
-	
-
-    // cout<<"\nin simply merging\n";
-    // cout<<"unmerged (H1): ";
-    //             printTree(H1);
-
-    // cout<<"unmerged (Hr): ";
-    //             printTree(H2);
-     
-    // cout<<endl;
-
 
     struct node* H = initialise_heap();
     struct node* y;
@@ -103,16 +88,6 @@ struct node* simply_merging(struct node* H1, struct node* H2)
         }
     }
 
-
-    
-     // cout<<"\nin simply merging\n";
-    //cout<<"merged heap is (H1+Hr): ";
-            //    printTree(H);
-            //    cout<<endl;
-
-  
-
-   
     return H;
 }
 
@@ -129,8 +104,7 @@ int linking_same_degnodes(struct node* y, struct node* z)
 // union of two heaps 
 struct node* union_of_heaps (struct node* H1, struct node* H2) 
 {
-   // cout<<"union_of_heaps";
-    
+   
     struct node* prev_x;
     struct node* next_x;
     struct node* x;
@@ -187,9 +161,7 @@ struct node* union_of_heaps (struct node* H1, struct node* H2)
 //insert operation 
 struct node* insert(struct node* H, struct node* x) 
 {
-     struct node* H1 = initialise_heap();
-    // struct node* H1 = new node;
-
+    struct node* H1 = initialise_heap();
     x->parent = NULL;
     x->child = NULL;
     x->sibling = NULL;
@@ -232,7 +204,6 @@ void reverting_list(struct node* y)
         Hr = y;
     }
 }
-//search operation 
 struct node* search_element(struct node* H, int k) 
 {
     struct node* x = H;
@@ -258,7 +229,6 @@ struct node* extract_min_node(struct node* H1)
     int min;
     struct node* t = NULL;
     struct node* x = H1;
-    //struct node *Hr;
     struct node* p;
   
     Hr = NULL;
@@ -313,16 +283,6 @@ struct node* extract_min_node(struct node* H1)
      {
      	swap(H1,Hr);
      }
-
-     // cout<<"extracted heap is (Hr): ";
-     //            printTree(Hr);
-     //            cout<<endl;
-
-     // cout<<"extracted heap is (H1): ";
-     //            printTree(H1);
-     //            cout<<endl;
-
-
     
      H = union_of_heaps(H1, Hr);
 
@@ -355,7 +315,6 @@ int decrease_key(struct node* H, int i, int k)
         y = z;
         z = z->parent;
     }
-    // printf("\nkey reduced!");
 }
  
 int delete_key(struct node* H, int k) 
@@ -374,9 +333,6 @@ int delete_key(struct node* H, int k)
     }
 }
 
-
-
-  
 // print function for binomial heap 
 void printHeap(struct node *H) 
 { 
@@ -400,12 +356,8 @@ int main() {
     int x;
     int mm=0;
   
-  
-    
-
     do 
     {
-        // printf("My function took %f seconds3 to execute! \n", time_taken);
         cout<<"Enter choice: \n";
         cout<<"1)insert 2)extract min key 3)decrease key 4)delete 5)quit 6)print heap \n";
         cin>>option;

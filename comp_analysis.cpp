@@ -19,7 +19,6 @@ struct node
 struct node* create_node(int k) 
 {
     struct node* p;
-    //p = (struct node*) malloc(sizeof(struct node));
     p=new node;
     p->n = k;
     return p;
@@ -44,23 +43,12 @@ void printTree(node *h)
         printTree(h->child); 
         h = h->sibling; 
     }
-  //  cout<<endl; 
 } 
  
 //merging two heaps 
 struct node* simply_merging(struct node* H1, struct node* H2) 
 {
 	
-
-    // cout<<"\nin simply merging\n";
-    // cout<<"unmerged (H1): ";
-    //             printTree(H1);
-
-    // cout<<"unmerged (Hr): ";
-    //             printTree(H2);
-     
-    // cout<<endl;
-
 
     struct node* H = initialise_heap();
     struct node* y;
@@ -102,16 +90,6 @@ struct node* simply_merging(struct node* H1, struct node* H2)
             z = b;
         }
     }
-
-
-    
-     // cout<<"\nin simply merging\n";
-    //cout<<"merged heap is (H1+Hr): ";
-            //    printTree(H);
-            //    cout<<endl;
-
-  
-
    
     return H;
 }
@@ -258,7 +236,6 @@ struct node* extract_min_node(struct node* H1)
     int min;
     struct node* t = NULL;
     struct node* x = H1;
-    //struct node *Hr;
     struct node* p;
   
     Hr = NULL;
@@ -307,22 +284,10 @@ struct node* extract_min_node(struct node* H1)
 
     }
 
-    
-
      if(!H1)
      {
      	swap(H1,Hr);
      }
-
-     // cout<<"extracted heap is (Hr): ";
-     //            printTree(Hr);
-     //            cout<<endl;
-
-     // cout<<"extracted heap is (H1): ";
-     //            printTree(H1);
-     //            cout<<endl;
-
-
     
      H = union_of_heaps(H1, Hr);
 
@@ -452,20 +417,13 @@ while (Files >> x)
   {
     break;
   }
-  // np = create_node(x);
   search_element(H, x);
-  //cout<<"element deleted"<<i;
   mm=mm+1;
  // i++;
 }
 cstart = clock()-cstart;
 time_taken = ((double)cstart)/CLOCKS_PER_SEC; 
 printf("My function took %f seconds to search! \n", time_taken);
-
-
-
-
-
     outFile.open(s);
     i=0;
     cstart = clock(); 
