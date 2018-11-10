@@ -2,16 +2,15 @@
 ## Contents
 
 - [x] <a href="#project-title-binomial-heap">Title of project</a>
-- [x] <a href="#technologies-to-be-used">Technologies to be used</a>
+- [x] <a href="#binomial-heap">Introduction to Binomial Heap</a>
 - [x] <a href="#deliverables">Deliverables</a>
-- [x] <a href="#project-delivery-plan">Project delivery plan</a>
+- [x] <a href="#technologies-to-be-used">Technologies to be used</a>
 - [x] <a href="#end-user-documentation">End User Documentation</a>
 - [x] <a href="#online-resources">Online resources</a>
-- [x] <a href="#plan-for-testing">Plan for testing</a>
 - [x] <a href="#team-members">Team members</a>
 
 
-# Binomial Heap
+# Introduction to Binomial Heap
 
 A binomial heap is implemented as a set of binomial trees (compare with a binary heap, which has a shape of a single binary tree), which are defined recursively as follows:
 A Binomial Tree of order 0 has 1 node. A Binomial Tree of order k can be constructed by taking two binomial trees of order k-1 and making one as leftmost child or other.
