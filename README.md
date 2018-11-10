@@ -23,16 +23,9 @@ A Binomial Tree of order k has following properties.
 
 Because of its unique structure, a binomial tree of order k can be constructed from two trees of order k−1 trivially by attaching one of them as the leftmost child of the root of the other tree. This feature is central to the merge operation of a binomial heap, which is its major advantage over other conventional heaps.
 
-# Technologies to be used
-
-| Title  | Details |
-| ------------- | ------------- |
-| Languages  | C, C++, Python, Markdown  |
-| Tools  | Sublime Text, Git  |
-
 # Deliverables
 
-The project delivers the following functionalities as an api to the user : 
+The project delivers the following functionalities via binomial heap as an api to the user : 
 
 | Function  | Syntax | Parameters | Description | Complexity |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -52,6 +45,12 @@ Along with above mentioned functionalities,this projects aims to provide compara
 Also, we have implemented Prim's Algorithm using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greed approach. From a particular vertex ,the next vertex is so chosen so that it can be connected to the current tree
 using the edge of the lowest weight. Repeating this process until all the nodes are included yields the Minimum Spanning Tree. The Prim’s Algorithm is based on the above approach. It uses a Heap for finding the next vertex with the minimum edge weight which can be included in the Minimum spanning tree.
 
+# Technologies to be used
+
+| Title  | Details |
+| ------------- | ------------- |
+| Languages  | C, C++, Python, Markdown  |
+| Tools  | Sublime Text, Git  |
 
 # Project delivery plan
 
