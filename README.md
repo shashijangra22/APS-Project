@@ -74,7 +74,6 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
     There are three input files:-
       - `random.txt` - contains around 20,000 random numbers.
       - `sorted.txt` - contains numbers 1-20,00,000 in increasing order.
-      - `reverse.txt` - contains numbers 1-20,00,000 in descending order .
     Provide the filename accordingly.
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a binomial heap which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the binomial heap.
@@ -86,7 +85,6 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
     There are three input files:-
       - `random.txt` - contains around 20.000 random numbers.
       - `sorted.txt` - contains numbers 1-20,00,000 in increasing order.
-      - `reverse.txt` - contains numbers 1-20,00,000 in descending order .
     Provide the filename accordingly.
   - The terminal will prompt for the numbers of values to be inserted from the file(Maximum value can be 20,00,000).
   - The program will create a AVL tree which contains the number of values that are selected in prior step and data will be from the file that was selected earlier. The same program will delete all the values inserted. At the end, it will show the time taken during insertion and time taken for the deletion of all the elements in the AVL tree.
