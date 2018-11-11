@@ -107,8 +107,9 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
 
 ### Advantages and Disadvantages of Binomial heap over AVL trees :-
 
+- Insertion in Binomial heap is faster than the AVL tree. For each insertion in the AVL tree, the new value is compared with multiple nodes until it reaches its desired position in the tree. Unlike AVL tree, insertion operation in Binomial heap first creates a Binomial tree with single key ‘k’, then calls union on Binomial heap H and the new Binomial tree.
 
-
+- Searching and Deletion in AVL tree is faster as compared to binomial heap. AVL tree is basically height balanced binary search tree and the number of comparisons required for successful search is limited by the height h and for unsuccessful search is very close to h. Whereas in Binomial heap, the searching is not efficient and may take O(N) time where N is number of nodes.  
 
 ## Implementation of Prim's Algorithm using Binomial heap :-
 
