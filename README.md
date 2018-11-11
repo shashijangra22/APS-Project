@@ -4,7 +4,7 @@
 - <a href="#project-title-binomial-heap">Title of project</a>
 - <a href="#introduction-to-binomial-heap">Introduction to Binomial Heap</a>
 - <a href="#deliverables">Deliverables</a>
-- <a href="#technologies-used">Technologies to be used</a>
+- <a href="#technologies-used">Technologies used</a>
 - <a href="#end-user-documentation">End User Documentation</a>
 - <a href="#online-resources">Online resources</a>
 - <a href="#team-members">Team members</a>
