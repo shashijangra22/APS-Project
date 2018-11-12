@@ -152,5 +152,7 @@ The algorithm may informally be described as performing the following steps:
 - Varun Gupta (2018201003)
 
 # Repository Link 
-https://shashijangra22.github.io/Advanced-Problem-Solving-Project/
+
+[https://shashijangra22.github.io/Advanced-Problem-Solving-Project/](https://shashijangra22.github.io/Advanced-Problem-Solving-Project/)
+
 
