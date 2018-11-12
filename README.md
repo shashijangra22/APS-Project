@@ -42,7 +42,7 @@ Along with above mentioned functionalities, this projects aims to provide compar
   - **Deletion**
   - **Search**
 
-Also, we have implemented **`Prim's Algorithm`** using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greedy approach. From a particular ver- <a href="#team-members">Team members</a>tex ,the next vertex is so chosen so that it can be connected to the current tree
+Also, we have implemented **`Prim's Algorithm`** using Binomial heap.The basic method to finding a Minimum Spanning Tree is based on a greedy approach. From a particular vertex, the next vertex is so chosen so that it can be connected to the current tree
 using the edge of the lowest weight. Repeating this process until all the nodes are included yields the Minimum Spanning Tree. The Prim’s Algorithm is based on the above approach. It uses a Heap for finding the next vertex with the minimum edge weight which can be included in the Minimum spanning tree.
 
 # Technologies used
