@@ -1,5 +1,4 @@
 <br>
-
 # Project Title : Binomial Heap
 ## Contents
 
@@ -104,8 +103,6 @@ using the edge of the lowest weight. Repeating this process until all the nodes 
 ![Search Comparison on Random data](/images/Search_random.png)
 <br>
 ![Search Comparison on Sorted data](/images/Search_sorted.png)
-<br>
-<br>
 <br>
 
 ### Advantages and Disadvantages of Binomial heap over AVL trees :-
